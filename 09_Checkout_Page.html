@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout</title>
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body id="Product_six_page">
+  <!--================hedar part start===================-->
+  <section id="heder">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <div class="row">
+            <div class="col-lg-2 col-sm-4 col-md-3">
+              <div class="country">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Eng
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Bangladesh</a></li>
+                  <li><a class="dropdown-item" href="#">Pakistan</a></li>
+                  <li><a class="dropdown-item" href="#">Maloshia</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 doller col-sm-4 col-md-3">
+              <div class="Usd">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Usd
+                  <i class="fa fa-usd" aria-hidden="true"></i>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Taka</a></li>
+                  <li><a class="dropdown-item" href="#">Rupi</a></li>
+                  <li><a class="dropdown-item" href="#">Mudra</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-4 col-md-6">
+              <div class="heder-text">
+                <span>
+                  Toll Free:
+                  <a href="tel:+123 4567 8900">+123 4567 8900</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div class="row">
+            <div class="col-lg-3 ms-auto col-sm-4">
+              <div class="heder-right-one">
+                <i class="fa fa-heart" aria-hidden="true"></i>
+                <a href="#">Wishlist</a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-4">
+              <div class="heder-right-one">
+                <i class="fa fa-user-o" aria-hidden="true"></i>
+                <a href="#">My Account</a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-4 ps-md-0">
+              <div class="heder-right-two">
+                <a href="10_My_Account.html">Log in / Register</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--================hedar part end=====================-->
+  <!--================navbar part start===================-->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <svg class="ham hamRotate ham8" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+          <path class="line top"
+            d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
+          <path class="line middle" d="m 30,50 h 40" />
+          <path class="line bottom"
+            d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
+        </svg>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Men</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Women</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Accesorries</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Product_Grid_View.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="15_Contact_Us_Page.html">Contact</a>
+          </li>
+        </ul>
+        <div class="nav-serch">
+          <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+        </div>
+        <div class="shop">
+          <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+          <a href="#">2 Items</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--================navbar part end=====================-->
+  <!--===========Search-bar Area Start================-->
+  <div class="search-bar">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 m-auto">
+          <div class="search-form">
+            <form action="#" method="POST">
+              <div class="form-group">
+                <input type="text" class="inp">
+                <a href="#" class="inner-search">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="search-cross">
+      <a href="#">
+        <i class="fa fa-times" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+  <!--==================Search-bar Area End==================-->
+  <!--================bannar part start===================-->
+  <section id="about-bannar">
+    <div class="about-bannar-overlay">
+      <div class="container">
+        <div class="about-bannar-heder">
+          <h1>Checkout</h1>
+          <ul>
+            <li><a href="index.html">Home<i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
+            <li><a href="09_Checkout_Page.html">Checkout</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--================bannar part end=====================-->
+  <!--================ Shopping-Cart part start===================-->
+  <section id="shoping-cart">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 col-md-7">
+          <div class="from_items">
+            <div class="from_heder">
+              <div class="from-hedr_content">
+                <a href="#">BILLING DETAILS</a>
+                <a href="#">Shipping Address <span>(If there is any different shipping address)</span></a>
+              </div>
+            </div>
+          </div>
+          <form action="#" method="post">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="from--from">
+                  <input type="text" placeholder="Name">
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="from--from">
+                  <input type="email" placeholder="E-mail">
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="from--from">
+                  <input type="number" placeholder="Phon">
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="from--from">
+                  <select name="country" id="country">
+                    <option value="#">Country</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Turosko">Turosko</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="from--from">
+                  <select name="Town/City" id="country">
+                    <option value="#">Town/City</option>
+                    <option value="Gopalganj">Gopalganj</option>
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="Islamabad">Islamabad</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="from--from">
+                  <input type="Password" placeholder="Password">
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="from--from">
+                  <input type="password" placeholder="Confirm Password">
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="from--from">
+                  <textarea name="massage" id="massage" placeholder="Order Notes Here" cols="30" rows="8"></textarea>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-3 col-md-5">
+          <div class="cart-total">
+            <h1>Cart Total</h1>
+            <div class="cart-total-one">
+              <a href="#">Cart Subtotal</a>
+              <p><i class="fa fa-usd" aria-hidden="true"></i>
+                990.00</p>
+            </div>
+            <div class="cart-total-one">
+              <a href="#">(<i class="fa fa-plus" aria-hidden="true"></i>) Shipping</a>
+              <p><i class="fa fa-usd" aria-hidden="true"></i>
+                10.00</p>
+            </div>
+            <div class="cart-total-one">
+              <a href="#">(<i class="fa fa-minus" aria-hidden="true"></i>) Discount</a>
+              <p><i class="fa fa-usd" aria-hidden="true"></i>
+                20.00</p>
+            </div>
+            <div class="cart-total-one">
+              <a href="#">Grand Total</a>
+              <p><i class="fa fa-usd" aria-hidden="true"></i>980.00</p>
+            </div>
+          </div>
+          <div class="from-payment">
+            <h1>Payments</h1>
+          </div>
+          <div class="catagory-checkbox-from">
+            <form action="#" method="post">
+              <input class="form-check-input" type="checkbox" value="DIRECT BANK TRANSFER" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                DIRECT BANK TRANSFER
+              </label>
+            </form>
+            <p>Lorem Ipsum is simply dummy text of the printing and typing isum has been the industry's standard dummy
+              te ever since the 1500s, when an unknown printer.</p>
+          </div>
+          <div class="catagory-checkbox-froms">
+            <form action="#" method="post">
+              <input class="form-check-input" type="checkbox" value="CHEQUE PAYMENT" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                CHEQUE PAYMENT
+              </label>
+            </form>
+          </div>
+          <div class="catagory-checkbox-froms">
+            <form action="#" method="post">
+              <input class="form-check-input" type="checkbox" value="PAYPAL" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                PAYPAL
+              </label>
+            </form>
+          </div>
+          <div class="form-button">
+            <button type="submit">Place Order</button>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!--================Shopping-Cart part end=====================-->
+  <!--================thems part start===================-->
+  <section id="thems">
+    <div class="container">
+      <div class="row thems">
+        <div class="col-lg">
+          <div class="thems-items">
+            <div class="thems-img">
+              <img src="images/theam-1.png" alt="theam-1" class="w-100 img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="thems-items">
+            <div class="thems-img">
+              <img src="images/theam-2.png" alt="theam-2" class="w-100 img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="thems-items">
+            <div class="thems-img">
+              <img src="images/theam-3.png" alt="theam-3" class="w-100 img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="thems-items">
+            <div class="thems-img">
+              <img src="images/theam-4.png" alt="theam-4" class="w-100 img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="thems-items">
+            <div class="thems-img">
+              <img src="images/theam-5.png" alt="theam-5" class="w-100 img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="thems-items">
+            <div class="thems-img">
+              <img src="images/theam-3.png" alt="theam-6" class="w-100 img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="thems-icon">
+      <i class="fa fa-chevron-left thems-left" aria-hidden="true"></i>
+      <i class="fa fa-chevron-right thems-right" aria-hidden="true"></i>
+    </div>
+  </section>
+  <!--===============thems part end=====================-->
+  <!--================footer part start===================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-logo">
+            <a href="#">
+              <img src="images/f-logo.png" alt="f-logo">
+            </a>
+          </div>
+          <div class="footer-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore.</p>
+            <h6>magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</h6>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-hader">
+            <h1>Contact US</h1>
+          </div>
+          <div class="footer-icon">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <a href="#">1234, Parkstreet Avenue, NewYork</a>
+          </div>
+          <div class="footer-icon">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <a href="#">+123 456 78900, +009 876 54321</a>
+          </div>
+          <div class="footer-icon">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <a href="#">info@e-buy.com, e-buy@info.com</a>
+          </div>
+          <div class="footer-icon">
+            <i class="fa fa-globe" aria-hidden="true"></i>
+            <a href="#">www.e-buy.com, www.infobuy.com</a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4">
+          <div class="footer-hader">
+            <h1>My Account</h1>
+          </div>
+          <div class="footer-account-content">
+            <a href="#">My Account</a>
+          </div>
+          <div class="footer-account-content">
+            <a href="#">Wishlist</a>
+          </div>
+          <div class="footer-account-content">
+            <a href="08_Shopping_Cart_Page.html">Shopping Cart</a>
+          </div>
+          <div class="footer-account-content">
+            <a href="#">Compare</a>
+          </div>
+          <div class="footer-account-content">
+            <a href="#">Checkout</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-8">
+          <div class="footer-hader">
+            <h1>Sign Up For Newsletter</h1>
+          </div>
+          <div class="footer-form">
+            <form action="#" method="post">
+              <input type="email" placeholder="Your E-mail">
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+          <div class="footer-end-icon">
+            <h1>Follow me on</h1>
+            <div class="footer-social-media">
+              <a href="#">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-behance" aria-hidden="true"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--================footer part end=====================-->
+  <!--================copy right part start===================-->
+  <section id="copy-right">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <div class="copy-right-left">
+            <p>Copyright @ 2018. All right reserved by <span>E-BUY</span></p>
+          </div>
+        </div>
+        <div class="col-lg-6 ms-auto col-md-6">
+          <div class="copy-right-rihgt">
+            <a href="#">
+              <img src="images/payment.png" alt="payment">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--================copy right part end=====================-->
+  <!--================back-to-top part start===================-->
+  <div class="back-to-top">
+    <i class="fa fa-chevron-up" aria-hidden="true"></i>
+  </div>
+  <!--================back-to-top part end=====================-->
+  <!--================ part start===================-->
+  <!--================ part end=====================-->
+  <!--================ part start===================-->
+  <!--================ part end=====================-->
+  <!--================ part start===================-->
+  <!--================ part end=====================-->
+  <!--================ part start===================-->
+  <!--================ part end=====================-->
+  <!--================ part start===================-->
+  <!--================ part end=====================-->
+  <!--================ part start===================-->
+  <!--================ part end=====================-->
+  <!--================ part start===================-->
+  <!--================ part end=====================-->
+  <!--================ part start===================-->
+  <!--================ part end=====================-->
+
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
